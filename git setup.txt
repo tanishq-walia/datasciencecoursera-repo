@@ -1,0 +1,23 @@
+These steps worked beautifully on my windows 10:
+        
+        mkdir sample
+
+cd sample
+
+git init
+
+git remote add origin https://github.com/username/sample.git
+
+git pull origin master
+
+nano README.md
+
+git add -A
+
+git commit -m "added"
+
+git push origin master
+
+Thanks a lot.
+
+I just replaced "nano" with "notepad" on my system.
